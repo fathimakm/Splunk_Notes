@@ -42,3 +42,12 @@ Here are some further steps you can take after creating a Splunk index:
 6. apps
 
 - apps available on splunkbase
+
+## notes
+### search in splunk
+- commands that create statistics and visualization are called transforming commands
+- if i search fail* , everything that starts with fail pops up
+- boolean operations can be used (NOT, OR, AND)
+- boolean operation have an order of evaluation ->  ((NOT, OR, AND), brackets can be used to control the flow of evaluation
+- to find exact keyword, place it in " "
+- to find keywords with " ", use / to escape `user = " info /" chris/" not in database`
