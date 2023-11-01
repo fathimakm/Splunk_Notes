@@ -51,3 +51,26 @@ Here are some further steps you can take after creating a Splunk index:
 - boolean operation have an order of evaluation ->  ((NOT, OR, AND), brackets can be used to control the flow of evaluation
 - to find exact keyword, place it in " "
 - to find keywords with " ", use / to escape `user = " info /" chris/" not in database`
+
+#### commands
+1. search terms
+2. commands
+3. functions
+4. arguments
+5. clauses
+
+__example__
+`index  = network sourcetype= cisco usage = violation |  stats count(usage) as visit`
+- index  = network sourcetype= cisco usage = violation -> search term
+- | -> pipe
+- stats count(usage) as visit -> search component
+- stats -> command
+- count -> function
+- (usage) -> argument
+- as -> clause
+
+- we use pipe to tell splunk to send the current results to the next component
+
+- time > index > source > host > sourcetype 
+
+   
