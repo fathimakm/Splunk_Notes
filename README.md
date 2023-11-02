@@ -71,6 +71,23 @@ __example__
 
 - we use pipe to tell splunk to send the current results to the next component
 
-- time > index > source > host > sourcetype 
+- time > index > source > host > sourcetype
+
+  ### Knowledge objects
+
+  Tools that help you and ur users to discover and analyze your data.
+
+  * 5 categories
+
+    1. Data Interpretation
+    2. Data classification
+    3. Data Enrichment
+    4. Data Normalization
+    5. Data Models ( aka search time mapping)
+   
+   * uses
+     1. created by one user and can be shared to others, can be saved and reused by multiple people and multiple apps. Also can be used in a search
+
+
 
    
